@@ -1,0 +1,28 @@
+.contact {
+    padding: 3rem 0;
+}
+
+.content__contact>h3 {
+    font-size: 1.8rem;
+    color: var(--text-black);
+}
+
+.content__contact>span,
+.inp label {
+    font-weight: 800;
+    font-size: 1rem;
+    color: var(--text-light-black);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+@media (min-width:500px) {
+    .content__contact>h3 {
+        font-size: 2rem;
+    }
+
+    .content__contact>span,
+    .inp label {
+        font-size: 1.1rem;
+    }
+}
