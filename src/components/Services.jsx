@@ -3,10 +3,10 @@ import "./styles/services.css";
 import instalacion from "../assets/images-services/instalacion.png";
 import mantenimiento from "../assets/images-services/mantenimiento.png";
 import impermeabilizacion_terrazas from "../assets/images-services/impermeabilizacion-terrazas.png";
-import impermeabilizacion_placas from "../assets/images-services/impermeabilizacion-placas.png";
 import diagnostico from "../assets/images-services/diagnostico.png";
 import enchapes from "../assets/images-services/enchapes.png";
 import instalacion_canales from "../assets/images-services/instalacion-canales.png";
+import instalacion_domos from "../assets/images-services/instalacion-domos.png";
 
 const Services = ({ setShowFloatForm }) => {
     return (
@@ -60,13 +60,13 @@ const Services = ({ setShowFloatForm }) => {
 
                     <div className="box__service">
                         <div className="text__services">
-                            <h3>Impermeabilización de placas</h3>
+                            <h3>Instalación y reparación de domos</h3>
 
                             <div onClick={() => setShowFloatForm(true)} className="btn__services">
                                 <span>Me interesa</span>
                             </div>
                         </div>
-                        <img src={impermeabilizacion_placas} alt="reparacion de goteras" />
+                        <img src={instalacion_domos} alt="reparacion de goteras" />
                     </div>
 
                     <div className="box__service">

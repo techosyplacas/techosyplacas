@@ -4,7 +4,7 @@ import techo1 from "../assets/images-gallery/techo-1.jpg";
 import techo2 from "../assets/images-gallery/techo-2.jpg";
 import techo3 from "../assets/images-gallery/techo-3.jpg";
 import techo4 from "../assets/images-gallery/techo-4.jpg";
-import techo5 from "../assets/images-gallery/techo-5.png";
+import techo5 from "../assets/images-gallery/techo-5.jpg";
 import techo6 from "../assets/images-gallery/techo-6.jpg";
 import techo7 from "../assets/images-gallery/techo-7.jpg";
 import techo8 from "../assets/images-gallery/techo-8.jpg";
