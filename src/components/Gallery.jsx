@@ -47,7 +47,7 @@ const Gallery = ({ setShowFloatForm }) => {
                     >
                         <img src={techo2} alt="techo de garaje" />
                         <div className={`img__info ${showImgInfo2 && "show__img__info"}`}>
-                            <span>Impermeabilización y mantenimiento de tejado</span>
+                            <span>Reparaciones locativas</span>
                             <button onClick={() => setShowFloatForm(true)}>Más info</button>
                         </div>
                     </div>
@@ -119,7 +119,7 @@ const Gallery = ({ setShowFloatForm }) => {
                     >
                         <img src={techo8} alt="marquesina" />
                         <div className={`img__info ${showImgInfo8 && "show__img__info"}`}>
-                            <span>Mantenimiento de canales y techo</span>
+                            <span>Lavado e impermeabilización de fachadas</span>
                             <button onClick={() => setShowFloatForm(true)}>Más info</button>
                         </div>
                     </div>
